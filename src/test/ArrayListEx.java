@@ -30,7 +30,8 @@ public class ArrayListEx {
 //collection.sort() method  is used for all common lists  , Array list stores the data and collections  manages the data
         Collections.sort(num);
         System.out.println(num);
-
+//        find the index number of particular values
+        System.out.println(names.indexOf("ban"));
     }
 
 }
