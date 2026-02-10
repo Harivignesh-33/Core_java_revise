@@ -22,10 +22,10 @@ class Version3 extends Version2 {
     }
 
     public static void main(String[] args) {
-        Version3 version3=new Version3();
-        version3.layout();
-        version3.layout2();
-        version3.layout3();
+        Version3 caller=new Version3();
+        caller.layout();
+        caller.layout2();
+        caller.layout3();
 
     }
 }
