@@ -8,9 +8,10 @@ public class Version1 {
 }
 
 class Version2 extends Version1 {
-    public void layout2() {
-        System.out.println("Version2");
-        System.out.println("Yellow color menu");
+    @Override
+    public void layout() {
+        System.out.println("version2");
+        System.out.println("lime color menu");
     }
 }
 class Version3 extends Version2 {
@@ -24,7 +25,7 @@ class Version3 extends Version2 {
     public static void main(String[] args) {
         Version3 caller=new Version3();
         caller.layout();
-        caller.layout2();
+        caller.layout();
         caller.layout3();
 
     }
