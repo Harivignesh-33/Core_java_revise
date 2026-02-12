@@ -39,5 +39,6 @@ class Child implements I1 , I2{
         obj.sub();
         obj.test();
         obj.mul();
+        obj.add();
     }
 }
