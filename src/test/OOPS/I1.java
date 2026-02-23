@@ -1,7 +1,8 @@
 package test.OOPS;
 
 public interface I1 {
-    void add();
+    void add(
+    );
     void sub();
     void mul();
     void test();
